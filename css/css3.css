@@ -27,6 +27,11 @@ body{
     color:rgba(255,255,255,0.5);
   
 }
+.main-header-title strong{
+
+    color:white;
+    font-weight:normal;
+}
 .main-content{
     width: 65%;
     margin-left: 35%;
