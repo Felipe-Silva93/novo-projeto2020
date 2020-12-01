@@ -15,6 +15,15 @@ a{
 a:hover{
     border-bottom-color:transparent;
 }
+.recent-works-card img{
+    border-radius:20px;
+    
+
+}
+
+img{
+    max-width:100%;
+}
 p{
     margin:0 0 2em;
 }
@@ -67,14 +76,14 @@ ul, ol{
     color:#49bf9c;
 }
 
-input, label, textarea{
+input, label, textarea,select{
     display: inline-block;
     width:100%;
     box-sizing:border-box;
     
 
 }
-input, textarea{
+input, textarea,select{
     background:#ccc;
     padding:15px;
     border-radius:5px;
@@ -82,6 +91,12 @@ input, textarea{
     margin-bottom:15px;
 
 }
+input[type="radio"],input[type="checkbox"]{
+    width:auto;
+}/* selecionar por atributo*/
+
+
+
 input:focus, textarea:focus{
     border: 3px solid #49bf9d;
      outline:none;
@@ -97,6 +112,12 @@ li{
 textarea{
     height:10em;
 }
+
+.main-header-link img {
+    border-radius: 50%;
+    overflow: hidden;/*opcional*/
+}
+
 .button-default{
     background-color:#49bf9d;
     border:2px solid #49bf9d;
@@ -121,6 +142,11 @@ textarea{
     display:block;
     text-align:center;
 }
+
+.imagem-link{
+    border:0;
+}
+
 .table{
     width:100%;
     margin:0 02em 0;
