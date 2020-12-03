@@ -293,9 +293,21 @@ h6{
 
 .main-footer{
     position:fixed;
-    bottom:100px;
+    bottom:0;
     width:35%;
     left:0;
+    position:fixed;
+    left:0;
+    padding:0 54px 72px 0;
+    box-sizing:border-box;
+    text-align:right;
+
+}
+blockquote p{
+    margin-bottom:.5em;
+}
+blockquote p:last-child{
+    margin-bottom:0;
 }
      /*Grid*/
 
